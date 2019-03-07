@@ -1,10 +1,6 @@
-CREATE SCHEMA IF NOT EXISTS `pp_criando_site_com_php` DEFAULT CHARACTER SET utf8 ;
-USE `pp_criando_site_com_php` ;
+CREATE DATABASE site_php;
 
--- -----------------------------------------------------
--- Table `pp_criando_site_com_php`.`pages`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `pp_criando_site_com_php`.`pages` (
+CREATE TABLE pages (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `title` VARCHAR(250) NOT NULL,
   `url` VARCHAR(250) NOT NULL,
@@ -14,11 +10,7 @@ CREATE TABLE IF NOT EXISTS `pp_criando_site_com_php`.`pages` (
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
-
--- -----------------------------------------------------
--- Table `pp_criando_site_com_php`.`users`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `pp_criando_site_com_php`.`users` (
+CREATE TABLE users (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `email` VARCHAR(250) NOT NULL,
   `password` VARCHAR(100) NOT NULL,
@@ -26,5 +18,3 @@ CREATE TABLE IF NOT EXISTS `pp_criando_site_com_php`.`users` (
   `updated` DATETIME NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
-
-1093440
