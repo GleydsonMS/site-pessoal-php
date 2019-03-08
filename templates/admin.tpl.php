@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="/resources/trix/trix.css">
     <link rel="stylesheet" href="/resources/pnotify/pnotify.custom.min.css">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Painel Administrativo da School of Net!</title>
+    <title>Painel Administrativo</title>
   </head>
   <body class="d-flex flex-column">
     <div id="header">
         <nav class="navbar navbar-dark bg-dark">
             <span>
-                <a href="/admin" class="navbar-brand">AdminSON</a>
+                <a href="/admin" class="navbar-brand">Admin</a>
                 <span class="navbar-text">
-                    Painel Administrativo da School of Net
+                    Painel Administrativo
                 </span>
             </span>
             <a href="/admin/auth/logout" class="btn btn-danger"><i class="fas fa-sign-out-alt"></i></a>
