@@ -4,7 +4,7 @@
     </div>
 </div>
 <div class="row">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae turpis velit. Nam suscipit ut lacus sed maximus. Nam gravida malesuada est, gravida volutpat mi aliquet quis. Nam hendrerit placerat ipsum vitae lobortis.</p>
+<p>Se você quiser entrar em contato conosco, por favor preencha todos os campos abaixo. Aceitamos críticas que sejam construtivas, elogios e sugestões de mudanças ou melhorias.</p>
 </div>
 <div class="row">
     <div class="col-2">

@@ -24,7 +24,7 @@
         <?php include $content; ?>
     </main>
 
-    <p id="footer"><small><?php echo date('Y'); ?> - todos os direitos reservados</small></p>
+    <p id="footer"><small>© <?php echo date('Y'); ?> - Todos os direitos reservados</small></p>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="/resources/pnotify/pnotify.custom.min.js"></script>
